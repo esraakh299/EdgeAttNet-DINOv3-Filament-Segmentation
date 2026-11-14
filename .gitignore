@@ -1,0 +1,17 @@
+# Local environments and generated files
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+.env
+outputs/
+*.log
+# Downloaded competition data and model binaries
+MAGFiLO_1.0_Kaggle_2026/
+models/*.pth
+models/*.joblib
+models/locked_filter_f.json
+models/oof/
+# Keep the intentional checked-in training-target ZIP.

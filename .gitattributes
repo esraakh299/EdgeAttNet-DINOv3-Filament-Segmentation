@@ -1,0 +1,8 @@
+# Keep LF line endings on every platform: the OOF manifests and assets are SHA-256 checked.
+* text=auto eol=lf
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.joblib filter=lfs diff=lfs merge=lfs -text
+*.zip -text
+*.parquet -text
+*.png -text
+*.svg text eol=lf

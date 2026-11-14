@@ -1,0 +1,39 @@
+{
+  "repo_id": "youssefElghanam191/edgeattnet-dinov3-convnext-base",
+  "revision": "19cc13b207a30795459b86d80cc36662fff289a0",
+  "provenance_source": "Original team-supplied fold manifests, paired with the team-published named fold weights. Hashes verify file identity; they do not independently prove training history.",
+  "folds": {
+    "0": {
+      "filename": "oof/fold_0_model.pth",
+      "model_sha256": "af576f80c8d493f2306f41614677df629f454a2abc56f195b043a88afe77c669",
+      "size_bytes": 375224541,
+      "manifest": "oof_training_manifest01.json",
+      "manifest_sha256": "075c2c78942579bb64fbb67996eb5cbdd63e191dd53fdbd28affabb6d557b495",
+      "format": "pytorch_ema_snapshot"
+    },
+    "1": {
+      "filename": "oof/fold_1_model.pth",
+      "model_sha256": "4a61f11c31cfe0d0d076f21d57415ba794e9e2e9abda8250765ccedac5898a08",
+      "size_bytes": 375224541,
+      "manifest": "oof_training_manifest01.json",
+      "manifest_sha256": "075c2c78942579bb64fbb67996eb5cbdd63e191dd53fdbd28affabb6d557b495",
+      "format": "pytorch_ema_snapshot"
+    },
+    "2": {
+      "filename": "oof/fold_2_model.pth",
+      "model_sha256": "3544647a07d789a793217c3b6f2fcaad7639fcc37b39f2e11152fe0913654577",
+      "size_bytes": 375224541,
+      "manifest": "oof_training_manifest23.json",
+      "manifest_sha256": "075c2c78942579bb64fbb67996eb5cbdd63e191dd53fdbd28affabb6d557b495",
+      "format": "pytorch_ema_snapshot"
+    },
+    "3": {
+      "filename": "oof/fold_3_model.pth",
+      "model_sha256": "6705c7ccc2d0f2b88556c8e715956448e3ce7a45cc13110d64a4a3de8be6fda8",
+      "size_bytes": 375224541,
+      "manifest": "oof_training_manifest23.json",
+      "manifest_sha256": "075c2c78942579bb64fbb67996eb5cbdd63e191dd53fdbd28affabb6d557b495",
+      "format": "pytorch_ema_snapshot"
+    }
+  }
+}

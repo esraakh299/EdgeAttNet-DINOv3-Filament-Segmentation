@@ -1,0 +1,29 @@
+# Proposed reproducible environment, NOT a recovered historical pip freeze.
+# Python 3.11 or 3.12; Linux + NVIDIA GPU. Restart the notebook kernel after install.
+# CUDA 13.0 is the selected runtime recorded in the supplied README.
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch==2.11.0+cu130
+torchvision==0.26.0+cu130
+timm==1.0.22
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.3
+Pillow==11.3.0
+scikit-learn==1.6.1
+catboost==1.2.8
+opencv-python-headless==4.11.0.86
+pycocotools==2.0.10
+joblib==1.5.2
+threadpoolctl==3.6.0
+huggingface_hub==0.36.0
+pyarrow==19.0.1
+tqdm==4.67.1
+nbformat==5.10.4
+jupyterlab==4.4.10
+ipykernel==6.30.1
+ipython==9.6.0
+matplotlib==3.10.6
+# Optional training code imports these; include every direct dependency here.
+psutil==7.1.0
+scikit-image==0.25.2
+optuna==4.5.0

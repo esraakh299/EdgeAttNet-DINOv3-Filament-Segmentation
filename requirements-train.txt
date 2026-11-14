@@ -1,0 +1,2 @@
+# Kept as a convenient entry point for the training guides.
+-r requirements.txt

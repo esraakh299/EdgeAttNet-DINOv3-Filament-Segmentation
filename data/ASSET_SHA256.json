@@ -1,0 +1,7 @@
+{
+  "data/assets/training_masks.zip": "3508515ed16b188c712e3e316f274bc3f604ca69321978039ca38337fc8fd096",
+  "data/splits/annotation_sets.parquet": "5fbd4e44b9c3917a8a0fc8aa16ca518d5bd6889196c402c2fe7fc6ec80d075f9",
+  "data/splits/annotation_sets_split.parquet": "65c6b37aef71df10a945184b9e10e4921b9b89057a6ae22ceac32f31a96e6e2d",
+  "data/splits/physical_images.parquet": "5cdf6f232f9b805f5b38ce03009b2e4946379594e6003886642192db2e8741a0",
+  "data/splits/physical_images_split.parquet": "70e6596ab2e9a34412adcca0dd6ba62261b424a8d9f29db7588993e2767a03b2"
+}
