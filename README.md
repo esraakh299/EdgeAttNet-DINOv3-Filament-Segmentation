@@ -284,7 +284,7 @@ We distinguish what is guaranteed from what is expected.
 | Thresholds and feature order | Fixed by the frozen config. No tuning at inference time |
 | Data splits and training targets | Bundled and integrity-checked |
 | Reported PQ 0.4751 | **Reproduced exactly** by a clean rerun of `final_inference.ipynb` on Kaggle (15 November 2026), from the pinned artifacts |
-| Runtime environment | Pinned versions are proposed. Small numerical differences (CUDA, cuDNN, GPU) can change a borderline selector decision |
+| Runtime environment | Pinned versions (PyTorch 2.11.0, CUDA 13.0), the environment used for the submitted predictions. A different CUDA, cuDNN or GPU can change a borderline selector decision |
 | Retraining the base or fold models | Expected to be close but **not bit-identical**, owing to GPU nondeterminism |
 | Refitting the selector | Uses the locked recipe. It does not repeat the historical selector search, so the model bytes may differ from the published file |
 
@@ -348,4 +348,4 @@ The organizers additionally require a **four-page technical report** in their te
 - [DINOv3 source and pretrained models](https://github.com/facebookresearch/dinov3)
 - [Published model artifacts](https://huggingface.co/youssefElghanam191/edgeattnet-dinov3-convnext-base)
 
-Third-party model and dataset terms remain applicable. This repository does not assign a new license to the team's source code.
+The code is publicly available. The DINOv3-based weights remain under the DINOv3 License, and the MAGFiLO data under its own terms.

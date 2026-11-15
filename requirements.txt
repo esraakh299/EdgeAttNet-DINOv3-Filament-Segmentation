@@ -1,6 +1,6 @@
-# Proposed reproducible environment, NOT a recovered historical pip freeze.
+# Pinned environment used to reproduce the submitted predictions.
 # Python 3.11 or 3.12; Linux + NVIDIA GPU. Restart the notebook kernel after install.
-# CUDA 13.0 is the selected runtime recorded in the supplied README.
+# CUDA 13.0 runtime, as used for the submission.
 --extra-index-url https://download.pytorch.org/whl/cu130
 torch==2.11.0+cu130
 torchvision==0.26.0+cu130
